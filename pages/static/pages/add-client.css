@@ -1,0 +1,15 @@
+body {
+    padding: 100px ;
+    height: 100%;
+    width: 100%;
+    background-color: #f3f4ed;
+}
+
+.form-wrap {
+    margin: 50px auto;
+    width: 50%;
+}
+.action {
+    font-weight: 500;
+    color: #536162;
+}
