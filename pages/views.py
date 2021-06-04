@@ -1,5 +1,6 @@
 from django.shortcuts import render, reverse
 from django.views import View
+from pages.forms import ClientForm
 
 
 class HomeView(View):
@@ -14,4 +15,5 @@ class LoginView(View):
 
 class AddClientView(View):
     def get(self, request):
-        return render(request, 'pages/add-client.html')
+        form = ClientForm()
+        return render(request, 'pages/add-client2.html', {'form': form})
